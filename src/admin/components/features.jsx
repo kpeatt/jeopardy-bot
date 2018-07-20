@@ -33,6 +33,16 @@ const FEATURE_LIST = [
     feature: 'greetings',
     description: 'Welcomes users joining Jeopardy channels with a simple message.',
   },
+  {
+    name: 'Guess Reactions',
+    feature: 'guessReactions',
+    description: 'Add reactions to guesses to indicate if the contestant was correct or not.',
+  },
+  {
+    name: 'Challenge Reaction Voting',
+    feature: 'challengeReactionVoting',
+    description: 'Vote on challenges with thumbs-up and thumbs-down emojis.',
+  },
 ];
 
 class Features extends React.Component {
